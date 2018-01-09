@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Form Excercise</title>
+</head>
+<body>
+  <form action="process-user.php" method="get">
+    <input type="text" name="full-name">
+    <input type="password" name="password">
+    <input type="submit" value="submit">
+    <br>
+    <input type="radio" name="sex" value="Male">Male
+    <input type="radio" name="sex" value="Female">Female
+    <br>
+    <input type="checkbox" name="vehicle-1" value="Acura"> I have a Acura
+    <input type="checkbox" name="vehicle-2" value="Tesla"> I have a Tesla
+    <br>
+    <select name="size">
+      <option value="small" selected>small</option>
+      <option value="medium" selected>medium</option>
+      <option value="large" selected>large</option>
+    </select>
+    <br>
+    <textarea name="message" rows="8" cols="80">Type Here...</textarea>
+  </form>
+
+</body>
+</html>
